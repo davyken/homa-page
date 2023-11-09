@@ -19,7 +19,7 @@ header {
 }
 
 .part1 {
-  background-image: url(../images/newimage.jpeg);
+  background-image: url("../images/newimage.jpeg");
   background-size: cover;
   background-attachment: fixed;
 }
@@ -164,7 +164,7 @@ header {
   border: 1px solid grey;
 }
 
-.nb_b {
+.nb-b {
   display: flex;
   justify-content: space-between;
 }
@@ -286,6 +286,10 @@ h1 {
 
 .aftcom img {
   border-radius: 1rem;
+  border-top: 0;
+  border-top-left-radius: 50rem;
+  border-top-right-radius: 50rem;
+  border-bottom: 10rem;
 }
 
 .img1 {
