@@ -317,12 +317,14 @@ h1 {
   gap: 1rem;
 }
 
-.img1aaa{
+.img1aaa {
   display: flex;
+  gap: 0.5rem;
 }
 
-.img3bbb{
+.img3bbb {
   display: flex;
+  gap: 0.5rem;
 }
 
 .img2 {
