@@ -61,7 +61,6 @@ header {
 }
 
 .div1 {
-  /* border: solid black; */
   display: flex;
   justify-content: space-between;
   border-radius: 10px;
@@ -70,7 +69,6 @@ header {
 }
 
 .div1-a {
-  /* border: 1px solid black; */
   border-radius: 1rem;
   padding: 10px;
   background-color: green;
@@ -156,7 +154,8 @@ header {
   display: block;
   gap: 10rem;
   justify-content: center;
-  margin: 0.3rem 1rem;
+  /* margin: 0.3rem 1rem; */
+  margin: 1.5rem;
 }
 
 .near-box {
@@ -196,7 +195,11 @@ header {
   display: block;
   gap: 10rem;
   justify-content: center;
-  margin: 0.3rem 1rem;
+  margin: 1.5rem;
+}
+
+.forest {
+  margin: 1.5rem;
 }
 
 .box2 {
