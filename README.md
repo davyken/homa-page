@@ -6,7 +6,7 @@
 ## Explore popular city
   Here you have the posibility to visualise several locations where you can found houses with the number of properties found there.
 ## Download
-  Here we show you the various platforms where you can download the application that is google play for android phones and appstore for apple devices.
+  Here we show you the various platforms where you can download the application that is google play for Android phones and appstore for apple devices.
 ## Email
   Next you have a column where you are asked to join homa by entering your email.
 ## footer
