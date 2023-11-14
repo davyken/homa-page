@@ -121,7 +121,7 @@ header {
   display: none;
 }
 
-.D p {
+.d p {
   display: none;
 }
 
@@ -831,7 +831,7 @@ body {
     border-bottom: 1px solid black;
   }
 
-  .D p {
+  .d p {
     font-family: Arial, Helvetica, sans-serif;
     opacity: 0.7;
     font-size: 2rem;
