@@ -16,6 +16,7 @@ header {
 .h1text {
   color: white;
   font-size: 1rem;
+  padding-bottom: 2rem;
 }
 
 .part1 {
@@ -112,6 +113,19 @@ header {
   color: grey;
 }
 
+.list {
+  display: none;
+}
+
+.login {
+  display: none;
+}
+
+.D p {
+  display: none;
+}
+
+
 .div2-d {
   border: 1px solid black;
   border-radius: 30px;
@@ -126,7 +140,7 @@ header {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid black;
-  margin: 0.7rem;
+  gap: 5rem;
 }
 
 .discover3 {
@@ -282,7 +296,7 @@ h1 {
 }
 
 .local-b {
-  flex-direction: column;
+  display: flex;
   justify-content: space-between;
 }
 
@@ -339,7 +353,6 @@ h1 {
 }
 
 .img1 {
-  flex-direction: column;
   justify-content: center;
   gap: 1rem;
 }
@@ -435,19 +448,16 @@ h1 {
 }
 
 .img2 {
-  flex-direction: column;
   justify-content: center;
   gap: 1rem;
 }
 
 .img3 {
-  flex-direction: column;
   justify-content: center;
   gap: 1rem;
 }
 
 .img4 {
-  flex-direction: column;
   justify-content: center;
   gap: 1rem;
 }
@@ -477,7 +487,6 @@ h1 {
 
 .ex1 {
   justify-content: center;
-  flex-direction: column;
   gap: 0.2rem;
   margin: 1rem;
 }
@@ -595,4 +604,335 @@ h1 {
 
 body {
   font-family: Arial, Helvetica, serif;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    margin: 0.5rem 0.5rem;
+  }
+
+  .part1 {
+    background-image: none;
+  }
+
+  .logodiv {
+    display: flex;
+    gap: 10rem;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+  }
+
+  .logo-text {
+    color: #080606;
+  }
+
+  .logo {
+    display: flex;
+  }
+
+  .overall-logo {
+    grid-template-columns: 50% 50%;
+    gap: 5rem;
+  }
+
+  .login {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .regist {
+    border-radius: 1rem;
+    background-color: #165a16;
+    color: aliceblue;
+    margin-bottom: 1rem;
+  }
+
+  iscover-div {
+    display: flex;
+    width: 61rem;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+  }
+
+  .overal-div1-2 {
+    background-image: url(../images/forest1.jpeg);
+    background-size: cover;
+    border-radius: 1rem;
+    height: 100%;
+    width: 100%;
+  }
+
+  .overal-div1-2 img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .div1 {
+    margin: 3rem;
+  }
+
+  .div2 {
+    margin: 3rem;
+  }
+
+  .list {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+  }
+
+  .h1text {
+    flex-direction: column;
+    color: #080606;
+    padding-bottom: 12rem;
+  }
+
+  .part1 {
+    background-image: none;
+    background-color: white;
+  }
+
+  .overalhouses {
+    display: flex;
+    gap: 1rem;
+    padding: 0 3rem;
+    margin: 1rem;
+  }
+
+  .overalhouses img {
+    width: 280px;
+    border-radius: 1rem;
+    width: 270px;
+  }
+
+  .house345 img {
+    width: 270px;
+    border-radius: 1rem;
+  }
+
+  .whyroma {
+    width: 100%;
+    height: 100%;
+    padding-left: 2rem;
+  }
+
+  .house345 {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+
+  .houses {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding-left: 15rem;
+  }
+
+  .aftcom img {
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    border-radius: 1rem;
+    height: 6rem;
+    width: 7rem;
+
+  }
+
+  .aftcom {
+    margin-left: 20rem;
+  }
+
+  .img1aaa {
+    flex-direction: column;
+  }
+
+  .img3bbb {
+    flex-direction: column;
+  }
+
+  .img1 {
+    display: flex;
+  }
+
+  .img2 {
+    display: flex;
+  }
+
+  .img3 {
+    display: flex;
+  }
+
+  .img4 {
+    display: flex;
+  }
+
+  .com {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding-left: 15rem;
+  }
+
+  .button {
+    width: 45rem;
+    padding-left: 5rem;
+    width: 100%;
+    height: 100%;
+  }
+
+  .local-a {
+    gap: 35rem;
+  }
+
+
+  .local-b {
+    gap: 1rem;
+    display: flex;
+  }
+
+  .local-b1 p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+  }
+
+  .effort {
+    grid-template-columns: 50% 1fr;
+    display: flex;
+    gap: 23rem;
+  }
+
+  .h1textoveral {
+    flex-direction: column;
+    gap: 50rem;
+  }
+
+  .discover1 {
+    font-size: 2rem;
+  }
+
+  .discover2 {
+    font-size: 2rem;
+  }
+
+  .discover3 {
+    font-size: 2rem;
+    width: 100%;
+    height: 100%;
+    gap: 3rem;
+  }
+
+  .discover-div {
+    justify-content: space-between;
+    font-size: 2rem;
+    gap: 10rem;
+    border-bottom: 1px solid black;
+  }
+
+  .D p {
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.7;
+    font-size: 2rem;
+  }
+
+  .div {
+    width: 127vw;
+    margin: 0.5rem;
+  }
+
+  header {
+    padding-top: 1px;
+  }
+
+  .ex1 {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto auto;
+    width: 100%;
+    height: 100%;
+    margin-left: 10rem;
+  }
+
+  .ex1a img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .ex1b img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .ex1c img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .ex1d img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .bfimage {
+    width: 125vw;
+  }
+
+  .bffooter {
+    width: 127vw;
+  }
+
+  .bffooter p {
+    font-size: 2rem;
+  }
+
+  .overalfooter {
+    width: 127vw;
+  }
+
+  .overalfooter p {
+    font-size: 2rem;
+  }
+
+  .bftitle {
+    width: 60rem;
+    text-align: center;
+  }
+
+  .explorer {
+    width: 60rem;
+    width: 100%;
+    height: 100%;
+    padding-left: 15rem;
+  }
+
+  .community {
+    width: 60rem;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding-left: 15rem;
+  }
+
+  .community p {
+    font-size: 2rem;
+  }
+
+  .l1 {
+    font-size: 2rem;
+  }
+
+  .l2 {
+    font-size: 2rem;
+  }
+
+  .l3 {
+    font-size: 2rem;
+  }
+
+  .local-a {
+    font-size: 2rem;
+  }
+
 }
