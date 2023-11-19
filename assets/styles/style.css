@@ -6,7 +6,7 @@
 
 .overall-logo {
   flex-direction: column;
-  margin: 17px;
+  margin: 5px;
 }
 
 header {
@@ -37,7 +37,6 @@ header {
 
 .logodiv {
   display: flex;
-  height: 100%;
   width: 100%;
   gap: 0.5rem;
 }
@@ -137,9 +136,11 @@ header {
 
 .discover-div {
   display: flex;
+  height: fit-content;
+  width: 100%;
   justify-content: space-between;
   border-bottom: 1px solid black;
-  gap: 5rem;
+  padding-top: 14rem;
 }
 
 .discover3 {
@@ -159,12 +160,11 @@ header {
 .discover3 span {
   border: 1px solid black;
   border-radius: 14rem;
-  padding: 0.5rem;
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
 }
 
 .overalhouses {
-  gap: 10rem;
+  gap: 5px;
   justify-content: center;
   margin: 1.5rem;
 }
@@ -173,7 +173,6 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 2rem;
 }
 
 .arrows {
@@ -215,26 +214,24 @@ header {
 
 .house4 img {
   width: 100%;
+}
+
+.house5 {
   height: 100%;
+  width: 100%;
 }
 
 .house5 img {
   width: 100%;
-  height: 100%;
 }
 
 .house345 {
   display: block;
-  gap: 10rem;
   justify-content: center;
   margin: 1.5rem;
 }
 
 .forest {
-  margin: 1rem;
-}
-
-.forest img {
   width: 100%;
   height: 100%;
 }
@@ -610,20 +607,13 @@ body {
     margin: 0.5rem;
   }
 
-  .logodiv {
-    display: flex;
-    gap: 10rem;
-    justify-content: space-between;
-    width: 100%;
-    height: 100%;
-  }
-
   .logo-text {
     color: #080606;
   }
 
   .logo {
     display: flex;
+    width: 100%;
   }
 
   .overall-logo {
@@ -643,7 +633,7 @@ body {
     margin-bottom: 1rem;
   }
 
-  iscover-div {
+  .discover-div {
     display: flex;
     width: 61rem;
     width: 100%;
@@ -691,18 +681,17 @@ body {
 
   .overalhouses {
     display: flex;
-    gap: 1rem;
-    padding: 0 3rem;
+    padding-right: 15rem;
     margin: 1rem;
   }
 
   .overalhouses img {
     border-radius: 1rem;
-    width: 270px;
+    width: 100%;
   }
 
   .house345 img {
-    width: 270px;
+    width: 100%;
     border-radius: 1rem;
   }
 
@@ -714,8 +703,9 @@ body {
 
   .house345 {
     display: flex;
-    gap: 1rem;
+    gap: 5px;
     justify-content: center;
+    padding-right: 15rem;
   }
 
   .houses {
@@ -734,7 +724,7 @@ body {
   }
 
   .aftcom {
-    margin-left: 20rem;
+    justify-content: center;
   }
 
   .img1aaa {
@@ -770,9 +760,8 @@ body {
   }
 
   .button {
-    width: 45rem;
-    padding-left: 5rem;
     height: 100%;
+    justify-content: center;
   }
 
   .local-b {
@@ -786,9 +775,14 @@ body {
   }
 
   .effort {
-    grid-template-columns: 50% 1fr;
-    display: flex;
-    gap: 23rem;
+    padding-top: 5rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+  }
+
+  .effort img {
+    width: 50%;
   }
 
   .h1textoveral {
@@ -806,16 +800,14 @@ body {
 
   .discover3 {
     font-size: 2rem;
-    width: 100%;
-    height: 100%;
-    gap: 3rem;
   }
 
   .discover-div {
     justify-content: space-between;
     font-size: 2rem;
-    gap: 10rem;
     border-bottom: 1px solid black;
+    width: 100%;
+    height: fit-content;
   }
 
   .d p {
@@ -825,7 +817,7 @@ body {
   }
 
   .div {
-    width: 127vw;
+    width: 100%;
     margin: 0.5rem;
   }
 
@@ -839,7 +831,8 @@ body {
     grid-template-columns: auto auto auto auto;
     width: 100%;
     height: 100%;
-    margin-left: 10rem;
+    padding-right: 3rem;
+    gap: 1rem;
   }
 
   .ex1a img {
@@ -863,11 +856,12 @@ body {
   }
 
   .bfimage {
-    width: 125vw;
+    width: 100%;
+    padding-right: 1rem;
   }
 
   .bffooter {
-    width: 127vw;
+    width: 100%;
   }
 
   .bffooter p {
@@ -875,7 +869,7 @@ body {
   }
 
   .overalfooter {
-    width: 127vw;
+    width: 100%;
   }
 
   .overalfooter p {
@@ -883,23 +877,21 @@ body {
   }
 
   .bftitle {
-    width: 60rem;
     text-align: center;
+    justify-content: center;
   }
 
   .explorer {
-    width: 60rem;
-    width: 100%;
-    height: 100%;
-    padding-left: 15rem;
-  }
-
-  .community {
-    width: 60rem;
     width: 100%;
     height: 100%;
     justify-content: center;
-    padding-left: 15rem;
+    text-align: center;
+  }
+
+  .community {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
   }
 
   .community p {
